@@ -1,0 +1,9 @@
+{
+  "name": "techfest-next-dimension",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Immersive Three.js Techfest landing page",
+  "scripts": {
+    "start": "npx http-server . -p 8000"
+  }
+}

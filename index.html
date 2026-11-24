@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#070812">
+  <meta name="description" content="TECHFEST 2026 — Enter the next dimension of innovation.">
+  <title>TECHFEST 2026 — Enter the Next Dimension</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script type="importmap">
+    {"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}
+  </script>
+</head>
+<body>
+  <div class="noise"></div><div class="progress"><i></i></div>
+  <header class="topbar"><a class="brand" href="#home"><span class="brand-icon">T<span>✳</span></span><span>TECHFEST<small>2026 / NEXT DIMENSION</small></span></a>
+    <nav><a href="#experience">Experience</a><a href="#events">Events</a><a href="#schedule">Schedule</a><a href="#register" class="nav-button">GET YOUR PASS ↗</a></nav>
+    <button class="menu" aria-label="Toggle menu"><span></span><span></span></button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <canvas id="world" aria-label="Interactive 3D Techfest scene"></canvas>
+      <div class="hero-vignette"></div>
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="live"></span> MUMBAI / INDIA &nbsp;·&nbsp; 2026</div>
+        <p class="pretitle">THE FUTURE ISN'T WAITING.</p>
+        <h1>ENTER THE<br><em>NEXT</em> DIMENSION<span class="period">.</span></h1>
+        <p class="hero-desc">A collision of code, creativity and courage. One arena. Limitless possibilities. Your move.</p>
+        <div class="hero-actions"><a class="button primary" href="#events">EXPLORE THE ARENA <b>↗</b></a><a class="play-link" href="#experience"><span>↓</span> SCROLL TO DISCOVER</a></div>
+        <div class="hero-meta"><span>01 / 05</span><i></i><span>INNOVATE · COMPETE · CREATE</span></div>
+      </div>
+      <div class="hud hud-top"><span>LIVE RENDER</span><b>● ONLINE</b></div><div class="hud hud-side"><span>ORBITAL OBJECT</span><b>TF-01 / ACTIVE</b></div>
+      <div class="scroll-cue"><span>SCROLL TO TRAVEL</span><b>↓</b></div>
+      <div class="hero-coordinates">19°04' N &nbsp; 72°52' E<br>TECHFEST CENTRAL</div>
+    </section>
+
+    <section class="intro section" id="experience">
+      <div class="section-label">01 / THE EXPERIENCE</div>
+      <div class="intro-grid"><div><p class="overline">NOT ANOTHER COLLEGE FEST.</p><h2>THIS IS YOUR<br><span>LAUNCHPAD.</span></h2></div><div class="intro-copy"><p>Step into a living playground for future thinkers. Build what doesn't exist, challenge what everyone accepts, and meet the people who will shape what comes next.</p><div class="metrics"><div><b>30<span>+</span></b><small>EVENTS</small></div><div><b>48<span>H</span></b><small>NON-STOP ACTION</small></div><div><b>∞</b><small>WAYS TO CREATE</small></div></div></div></div>
+    </section>
+
+    <section class="events section" id="events">
+      <div class="section-label">02 / PICK YOUR ARENA</div><div class="section-title"><h2>THREE WORLDS.<br><span>ONE YOU.</span></h2><p>Choose your challenge. Make your mark.</p></div>
+      <div class="event-grid">
+        <article class="event-card" data-tilt><div class="event-visual visual-robot"><div class="visual-glow"></div><div class="mini-bot"><i></i><b></b></div><span class="event-index">01 / ENGINEERING</span></div><div class="event-copy"><div><small>BUILD / BATTLE</small><h3>ROBOT RUMBLE</h3><p>Design a machine. Give it a mission. Let it loose.</p></div><a href="#register">↗</a></div></article>
+        <article class="event-card" data-tilt><div class="event-visual visual-code"><div class="code-sphere"><span>&lt;/&gt;</span></div><span class="event-index">02 / SOFTWARE</span></div><div class="event-copy"><div><small>CODE / CREATE</small><h3>HACK THE HORIZON</h3><p>48 hours to turn a wild idea into a working reality.</p></div><a href="#register">↗</a></div></article>
+        <article class="event-card" data-tilt><div class="event-visual visual-space"><div class="mini-ship">◢</div><div class="ship-orbit"></div><span class="event-index">03 / AEROSPACE</span></div><div class="event-copy"><div><small>DESIGN / DISCOVER</small><h3>ORBITAL LAB</h3><p>Push your imagination beyond the atmosphere.</p></div><a href="#register">↗</a></div></article>
+      </div>
+    </section>
+
+    <section class="manifesto section" id="schedule"><div class="section-label">03 / THE COUNTDOWN</div><p class="overline">YOUR NEXT BIG STORY STARTS IN</p><div class="countdown"><div><b id="days">024</b><small>DAYS</small></div><span>:</span><div><b id="hours">12</b><small>HOURS</small></div><span>:</span><div><b id="minutes">48</b><small>MINUTES</small></div><span>:</span><div><b id="seconds">09</b><small>SECONDS</small></div></div><p class="countdown-note">The clock is moving. Are you?</p><div class="timeline"><div><b>01</b><span>DAY ONE</span><small>OPENING / BUILD / EXPLORE</small></div><div><b>02</b><span>DAY TWO</span><small>COMPETE / COLLABORATE</small></div><div><b>03</b><span>DAY THREE</span><small>FINALS / SHOWCASE / AWARDS</small></div></div></section>
+
+    <section class="register section" id="register"><div class="register-orb"></div><div class="section-label">04 / YOUR MOVE</div><p class="overline">DON'T JUST WATCH THE FUTURE.</p><h2>COME<br><span>BUILD IT.</span></h2><p class="register-copy">Bring your curiosity. Find your people. Leave with a story worth telling.</p><a class="button primary" href="mailto:techfest@example.com">REGISTER YOUR INTEREST <b>↗</b></a><small class="fineprint">EARLY ACCESS / LIMITED SPOTS</small></section>
+  </main>
+  <footer><a class="brand" href="#home"><span class="brand-icon">T<span>✳</span></span><span>TECHFEST<small>2026 / NEXT DIMENSION</small></span></a><span>MADE FOR THE NEXT GENERATION.</span><span>© TECHFEST 2026</span><a href="#home">BACK TO TOP ↑</a></footer>
+  <script type="module" src="main.js"></script>
+</body></html>
