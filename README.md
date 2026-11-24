@@ -31,13 +31,3 @@ Requires an internet connection to load Three.js and Google Fonts from their CDN
 2. Set the actual event date in `main.js` (`targetDate`).
 3. Update the venue, event titles, event descriptions, dates and organizer information.
 4. Test on mobile and desktop.
-
-## Deploy with GitHub Pages
-Push the folder contents to a GitHub repository. In Settings → Pages, select **Deploy from a branch**, choose `main` and `/ (root)`. Since the site uses CDN imports, no bundler is required.
-
-## Demo recording suggestion (45–60 sec)
-- Open on the hero and move the mouse to show 3D parallax.
-- Scroll slowly to show camera travel and the 3D scene changing position.
-- Hover the three event cards to show tilt.
-- Show countdown, timeline and registration CTA.
-- Resize browser to mobile width and show responsive navigation.
